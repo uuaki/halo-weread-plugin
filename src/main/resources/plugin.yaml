@@ -1,0 +1,22 @@
+# Refer https://docs.halo.run/developer-guide/plugin/basics/manifest
+
+apiVersion: plugin.halo.run/v1alpha1
+kind: Plugin
+metadata:
+  # The name defines how the plugin is invoked, A unique name
+  name: halo-weread-plugin
+spec:
+  enabled: true
+  requires: ">=2.23.0"
+  author:
+    name: haike
+    website: https://prunuskee.com/
+  logo: logo.png
+  homepage: https://github.com/uuaki/halo-weread-plugin#readme
+  repo: https://github.com/uuaki/halo-weread-plugin
+  issues: https://github.com/uuaki/halo-weread-plugin/issues
+  displayName: "weread-plugin"
+  description: "weread - Halo 插件"
+  license:
+    - name: "MIT"
+      url: "https://github.com/uuaki/halo-weread-plugin/blob/main/LICENSE"

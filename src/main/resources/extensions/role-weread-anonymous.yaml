@@ -1,0 +1,23 @@
+apiVersion: v1alpha1
+kind: Role
+metadata:
+  name: halo-weread-plugin-role-anonymous
+  labels:
+    halo.run/role-template: "true"
+    halo.run/hidden: "true"
+    rbac.authorization.halo.run/aggregate-to-anonymous: "true"
+  annotations:
+    rbac.authorization.halo.run/module: "微信读书插件"
+    rbac.authorization.halo.run/display-name: "公开书架资源访问"
+rules:
+  - nonResourceURLs:
+      - /api/ext/halo-weread-plugin/**
+    verbs:
+      - get
+  - apiGroups:
+      - run.halo.plugin.wereadplugin
+    resources:
+      - wereadbooks
+    verbs:
+      - get
+      - list
