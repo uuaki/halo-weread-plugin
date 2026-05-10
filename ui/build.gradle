@@ -6,7 +6,7 @@ plugins {
 group 'run.halo.wereadplugin.ui'
 
 node {
-    download = true
+    download = System.getenv("CI") != "true"
     version = "22.14.0"
 }
 
