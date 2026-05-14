@@ -15,8 +15,8 @@ spec:
   homepage: https://github.com/uuaki/halo-weread-plugin#readme
   repo: https://github.com/uuaki/halo-weread-plugin
   issues: https://github.com/uuaki/halo-weread-plugin/issues
-  displayName: "weread-plugin"
-  description: "weread - Halo 插件"
+  displayName: "微信读书（WeRead）信息展示"
+  description: "在 Halo 博客中展示微信读书书架、阅读进度和读书笔记并自动同步"
   license:
     - name: "MIT"
       url: "https://github.com/uuaki/halo-weread-plugin/blob/main/LICENSE"
