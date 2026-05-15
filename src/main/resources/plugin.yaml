@@ -11,7 +11,7 @@ spec:
   author:
     name: haike
     website: https://prunuskee.com/
-  logo: logo.png
+  logo: logo.svg
   homepage: https://github.com/uuaki/halo-weread-plugin#readme
   repo: https://github.com/uuaki/halo-weread-plugin
   issues: https://github.com/uuaki/halo-weread-plugin/issues
